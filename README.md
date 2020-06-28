@@ -1,6 +1,7 @@
 # Curso-Django
 Módulo para a construção de uma aplicação, utilizando o Web Django. Curso Python pro
 
+Aplicação disponível em https://djangotraineepypro.herokuapp.com/
 
 [![Build Status](https://travis-ci.com/Gabrieltggv/Curso-Django.svg?branch=master)](https://travis-ci.com/Gabrieltggv/Curso-Django)
 [![Updates](https://pyup.io/repos/github/Gabrieltggv/Curso-Django/shield.svg)](https://pyup.io/repos/github/Gabrieltggv/Curso-Django/)
