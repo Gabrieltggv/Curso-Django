@@ -34,7 +34,6 @@ ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'base.User'
 
-
 COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
 
 # Application definition
