@@ -34,8 +34,6 @@ ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'base.User'
 
-COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -49,6 +47,7 @@ INSTALLED_APPS = [
     'pypro.base',
     'pypro.aperitivos',
     'pypro.modulos',
+    'ordered_model',
 ]
 
 MIDDLEWARE = [
@@ -154,6 +153,7 @@ if AWS_ACCESS_KEY_ID:
     AWS_QUERYSTRING_AUTH = True
     AWS_S3_CUSTOM_DOMAIN = None
 
+    COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
     COLLECTFAST_ENABLE = True
 
     AWS_DEFAULT_ACL = None
