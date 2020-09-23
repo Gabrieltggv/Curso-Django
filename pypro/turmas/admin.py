@@ -14,7 +14,7 @@ class MatriculaInline(admin.TabularInline):
 
 @admin.register(Turma)
 class TurmaAdmin(admin.ModelAdmin):
-    inline = [MatriculaInline]
+    inlines = [MatriculaInline]
     list_display = ('nome', 'slug', 'inicio', 'fim')
     prepopulated_fields = {'slug': ('nome',)}
     ordering = ('-inicio',)

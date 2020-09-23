@@ -4,5 +4,5 @@ from pypro.turmas import views
 
 app_name = 'turmas'
 urlpatterns = [
-  path('', views.indice, name='indice'),
+    path('', views.indice, name='indice'),
 ]
