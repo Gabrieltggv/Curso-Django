@@ -133,4 +133,6 @@ dmypy.json
 staticfiles/
 mediafiles/
 
+static/
+
 .pgdata
